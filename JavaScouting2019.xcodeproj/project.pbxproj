@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0A033BE522126BAD00C27068 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A033BE422126BAD00C27068 /* GoogleService-Info.plist */; };
 		0A033BEF22126E7F00C27068 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A033BEE22126E7F00C27068 /* Team.swift */; };
 		0A033BF122126F3500C27068 /* Competition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A033BF022126F3500C27068 /* Competition.swift */; };
 		0A033BF322126F4300C27068 /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A033BF222126F4300C27068 /* Member.swift */; };
@@ -37,11 +36,11 @@
 		0AEC5C2821F54F71006CEE45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AEC5C2621F54F71006CEE45 /* Main.storyboard */; };
 		0AEC5C2A21F54F73006CEE45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AEC5C2921F54F73006CEE45 /* Assets.xcassets */; };
 		0AEC5C2D21F54F73006CEE45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AEC5C2B21F54F73006CEE45 /* LaunchScreen.storyboard */; };
+		4F6FB8A4221A12C600893646 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4F6FB8A3221A12C500893646 /* GoogleService-Info.plist */; };
 		6C195787C65BD71E54A5F551 /* Pods_JavaScouting2019.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 417A4E64BC3ECD3D110C4EB9 /* Pods_JavaScouting2019.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0A033BE422126BAD00C27068 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0A033BEE22126E7F00C27068 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		0A033BF022126F3500C27068 /* Competition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Competition.swift; sourceTree = "<group>"; };
 		0A033BF222126F4300C27068 /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
@@ -75,6 +74,7 @@
 		0AEC5C2E21F54F73006CEE45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39AF6AA7BA8A8E3EA0240D9E /* Pods-JavaScouting2019.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JavaScouting2019.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JavaScouting2019/Pods-JavaScouting2019.debug.xcconfig"; sourceTree = "<group>"; };
 		417A4E64BC3ECD3D110C4EB9 /* Pods_JavaScouting2019.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JavaScouting2019.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F6FB8A3221A12C500893646 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DAFBB98DFA31AE544FA84BB3 /* Pods-JavaScouting2019.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JavaScouting2019.release.xcconfig"; path = "Pods/Target Support Files/Pods-JavaScouting2019/Pods-JavaScouting2019.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,8 +155,8 @@
 		0A033BFA22138F5600C27068 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
-				0A033BFF22138FD600C27068 /* LoginViewController.swift */,
-				0A033C0022138FD600C27068 /* LoginViewController.xib */,
+				4F7135D9221A125C00E9CF10 /* Signup */,
+				4F7135D8221A124B00E9CF10 /* Login */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -208,7 +208,6 @@
 		0AEC5C1421F54F71006CEE45 = {
 			isa = PBXGroup;
 			children = (
-				0A033BE422126BAD00C27068 /* GoogleService-Info.plist */,
 				0AEC5C1F21F54F71006CEE45 /* JavaScouting2019 */,
 				0AEC5C1E21F54F71006CEE45 /* Products */,
 				594FC2EC18DBDDB0EB9179E9 /* Pods */,
@@ -235,6 +234,7 @@
 				0AEC5C2621F54F71006CEE45 /* Main.storyboard */,
 				0AEC5C2921F54F73006CEE45 /* Assets.xcassets */,
 				0AEC5C2B21F54F73006CEE45 /* LaunchScreen.storyboard */,
+				4F6FB8A3221A12C500893646 /* GoogleService-Info.plist */,
 				0AEC5C2E21F54F73006CEE45 /* Info.plist */,
 				0A033C0E2213B5B900C27068 /* TOAGrab.swift */,
 				0A44442B2215FAE200F8D987 /* FirebaseParse.swift */,
@@ -248,6 +248,22 @@
 				417A4E64BC3ECD3D110C4EB9 /* Pods_JavaScouting2019.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F7135D8221A124B00E9CF10 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0A033BFF22138FD600C27068 /* LoginViewController.swift */,
+				0A033C0022138FD600C27068 /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		4F7135D9221A125C00E9CF10 /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Signup;
 			sourceTree = "<group>";
 		};
 		594FC2EC18DBDDB0EB9179E9 /* Pods */ = {
@@ -327,9 +343,9 @@
 				0A033C0822139DE700C27068 /* CompetitionTableViewController.xib in Resources */,
 				0A033C132213C8A600C27068 /* NewTeamViewController.xib in Resources */,
 				0A033C0C22139E0B00C27068 /* AddCompetitionViewController.xib in Resources */,
+				4F6FB8A4221A12C600893646 /* GoogleService-Info.plist in Resources */,
 				0A8AA2F9220008BA00E24F01 /* InitScoutViewController.xib in Resources */,
 				0A8AA301220008D800E24F01 /* TeamDetailViewController.xib in Resources */,
-				0A033BE522126BAD00C27068 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
