@@ -39,12 +39,12 @@ class LoginViewController: UIViewController {
     }
     
     private func fieldsAreFilled() -> Bool {
-        return self.emailField.text != "" && self.passwordField.text != ""
+        return self.emailTextField.text != "" && self.emailTextField.text != ""
     }
     
     @objc func dismissKeyboard() {
-        emailField.resignFirstResponder()
-        passwordField.resignFirstResponder()
+        emailTextField.resignFirstResponder()
+        emailTextField.resignFirstResponder()
     }
     
     private func addKeyboardObservers() {
